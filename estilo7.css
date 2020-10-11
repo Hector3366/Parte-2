@@ -1,0 +1,125 @@
+body{
+   background-image: url(./mountain.jpg);
+   background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 15px;
+}
+.contenido{
+  display: flex;
+}
+img{
+  width: 32px;
+  height: 32px;
+  border-radius: 5px;
+  margin-left: 5%;
+}
+.lupa{
+  fill: white;
+  margin-left: 70%;
+  background-color: rgb(238, 235, 230);
+  border-radius: 70px;
+  padding: 2px 2px;
+  opacity: 0.9;
+}
+.menu{
+    fill: white;
+}
+.titulo1{
+  font-size: 3rem;
+  font-style: initial;
+  margin-top: 25%;
+}
+.titulo2{
+  font-size: 3rem;
+  color: rgb(240, 240, 15);
+  font-style: initial;
+ 
+}
+.texto{
+  margin-top: 50px;
+  color:white;
+  line-height: 12px;
+  font-size: small;
+}
+.links{
+  display: flex;
+  justify-content: space-between;
+  
+  color: yellow;
+  font-size: 16px;
+}
+.contenedor2{
+  background-image: url(./senderismo.jpg);
+  margin-right: auto;
+  width: 100%;
+  height: 10em;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+  margin-top: 15px;
+  line-height: 15px;
+}
+
+.contenido2{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  width: 60%;
+  background-color: white;
+  float: right;
+  border-radius: 15px;
+  
+  
+}
+.contenedor3{
+  background-image: url(./sendero.jpg);
+  margin-right: auto;
+  width: 100%;
+  height: 10em;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+  margin-top: 15px;
+  line-height: 15px;
+}
+
+.contenido3{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  width: 60%;
+  background-color: white;
+  float: right;
+  border-radius: 15px;
+  
+}
+.estrellas{
+  fill: yellow;
+  margin-left: 1.7rem;
+}
+.star{
+  fill: rgb(214, 211, 211);
+  border: none;
+}
+input{
+  background-color: yellow;
+  border-radius: 25px;
+  margin-bottom: 10px;
+}
+.final{
+  border-radius: 25px;
+  background-color: yellow;
+  padding: 5px;
+  text-align: center;
+  width: 50%;
+  margin-left: 0.3rem;
+}
+.texto2{
+    
+    line-height: 3px;
+    margin-left: 1.1rem;
+}
